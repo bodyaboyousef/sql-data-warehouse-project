@@ -6,6 +6,7 @@ Script Purpose:
 this script creates tables in the 'silver' schema, dropping existing tables
 if they already exists.
 =========================================================
+*/
 
 
 if object_id ('silver.crm_cust_info' , 'U') is not null
